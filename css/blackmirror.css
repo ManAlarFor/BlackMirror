@@ -33,6 +33,7 @@ body {margin:0; padding: 0%; /*para desactivar el margen por defecto*/
 
 #hero{background-image: url(../img/black-mirror-serie.jpg);
                         height:95vh;   /*el 100 del alto de la ventana del navegador*/
+                        background-position: 50%;
                         background-size: cover;
     }
 
