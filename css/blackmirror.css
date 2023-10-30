@@ -17,10 +17,31 @@
             font-family:textonormal;
             src: url(../font/Fuente-OpenSans)}
 
+* {box-sizing: border-box;} /*siempre se pone con maquetación compleja*/
+
 body {margin:0; padding: 0%; /*para desactivar el margen por defecto*/
     background-color: #202020;
-    font-family: blackmirror ;}
+    font-family: blackmirror ;
+    }
 
 #wrapper {background-color: #b0b0b0;
             width:80%;
-            margin:auto}
+            margin:auto
+        }
+
+/****************************************HeroSection***********************************************/
+
+#hero{background-image: url(../img/black-mirror-serie.jpg);
+                        height:95vh;   /*el 100 del alto de la ventana del navegador*/
+                        background-size: cover;
+    }
+
+#hero button {background-color: rgb(61, 61, 61);
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            padding: 15px 10px;
+            margin-top:70vh;
+            margin-left:45%;/*muy cutre*/
+            }
