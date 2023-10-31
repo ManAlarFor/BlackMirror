@@ -35,6 +35,7 @@ body {margin:0; padding: 0%; /*para desactivar el margen por defecto*/
                         height:95vh;   /*el 100 del alto de la ventana del navegador*/
                         background-position: 50%;
                         background-size: cover;
+                        position:relative; /*contenedor relativo*/
     }
 
 #hero button {background-color: rgb(61, 61, 61);
@@ -43,6 +44,8 @@ body {margin:0; padding: 0%; /*para desactivar el margen por defecto*/
             border: none;
             border-radius: 10px;
             padding: 15px 10px;
-            margin-top:70vh;
-            margin-left:45%;/*muy cutre*/
+            position:absolute; 
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%,-50%);
             }
